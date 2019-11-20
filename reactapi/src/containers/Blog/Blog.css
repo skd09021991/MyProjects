@@ -1,0 +1,4 @@
+.Posts {
+    display: flex;
+    flex-wrap: wrap;
+}
