@@ -1,0 +1,60 @@
+.App {
+    position: absolute;
+    height: 400px;
+    left:50%;
+    top:50%;
+    width: 300px;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;;
+    text-align: center;
+    padding: 10px;
+  }
+  .text {
+    max-width: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(70, 77, 83);
+    color: white;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+     
+  }
+  .text input::placeholder {
+    color: white;
+  }
+  .errorBox {
+    display: flex;
+    background: #be4b49;
+    margin: 20px 0 0 30px;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    top: 32%;
+    right: -57%;
+    bottom: 252%;
+    padding: 5px 8px;
+    align-items: center;
+    width: max-content;
+    height: fit-content;
+    
+  }
+  .errorBox:before {
+    display: flex;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 20px solid #be4b49;
+    border-bottom: 13px solid transparent;
+    margin: 0 0 0 -25px;
+  }
+  .blurButton.disabled,
+  .blurButton[disabled] {
+    border: 1px solid #999999;
+    background-color: #ea9999!important;
+  }
