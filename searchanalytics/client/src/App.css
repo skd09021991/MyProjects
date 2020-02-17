@@ -1,0 +1,114 @@
+.instanceDetails{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  position: relative;
+  /* width: 49.66%; */
+  height: fit-content;
+  /* background-color: bisque; */
+  border : 1px solid black;
+  white-space : nowrap
+  
+}
+
+
+.cards-container {
+  width: 53%;
+  padding: 12px;
+  box-sizing: border-box;
+  box-shadow: indigo;
+}
+.topNav{
+  background-color: dodgerblue;
+  overflow: hidden;
+  align-items:center ;
+  display: flex;
+}
+.sideBar{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    float: right;
+    margin-bottom: 20px;
+        
+}
+.sideBar:hover{
+  
+  box-shadow: 0 0 10px dodgerblue;
+  cursor: pointer;
+}
+.logoutButton{
+  margin-right: 20px;
+  position: relative;
+  background-color:#ff8000;
+  float: right;
+
+}
+.backButton {
+  margin-top: 20px;
+  background-color: #ff8000;
+}
+.cardContent {
+ display: flex;
+ align-items: center;
+
+}
+
+.chartButton {
+  margin-top: 65px;
+  
+}
+.middleButton {
+  margin-left: 311px;
+  margin-top: 35px;
+  border-radius: 5px;
+  padding-left: 65px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  float: left;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.heading{
+  margin-top: 95px;
+  margin-left: 10px;
+}
+.date {
+  display: block;
+  position: relative;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+.expansionList.MuiPaper-root {
+  transform: translateY(10%)!important;
+  width: 99vw!important;
+  min-width: 99vw!important;
+  max-width: 99vw!important;
+}
+.card{
+  width:65%;
+}
+@media screen and (max-width: 800px) {
+  .card  .cards-container , .expansionList.MuiPaper-root , .instanceDetails {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+.counts{
+  display: block;
+  position: relative;
+}
+.display{
+  display: flex;
+  flex-wrap: nowrap; 
+  align-items: center;
+}
+.instance-card.MuiPaper-root{
+  
+  width: 56vw!important;
+  
+}

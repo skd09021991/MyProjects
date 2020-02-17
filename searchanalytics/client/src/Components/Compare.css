@@ -1,0 +1,45 @@
+.select{
+    position: relative;
+    display: inline-block;
+}
+
+.firstDate {
+    width: 83%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .secondDate {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+   
+  }
+  .superDiv{
+   
+    margin-top: -44px;
+    margin-right: 33px;
+    margin-left: 60%;
+    display: flex;
+    flex-wrap: nowrap;
+   }
+  
+
+ /*
+ margin-top: -44px;
+   margin-right: 33px;
+   left: 1185px;
+
+ */
