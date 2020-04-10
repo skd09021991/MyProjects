@@ -1,0 +1,33 @@
+body .Progressive-Loading{
+    position: relative;
+    width: fit-content;
+}
+
+body .originalImage{
+    display: none;
+    position: absolute;
+    height: auto;
+    min-height: 100px;
+    margin:0px 0px;
+}
+body .Progressive-Loading .placeHolderImage{
+    position: relative;
+    transform: scale(1);
+    opacity:1;
+    transition : opacity 1s ease-in-out ;
+    filter: blur(20px);
+    min-height: 100px;
+    height: auto;
+    
+}
+
+body .Progressive-Loading  .show-original{
+    opacity: 0;
+}
+
+
+body.image-loading .placeHolderImage{
+    position: relative;
+    min-height:100px;
+    height: auto;
+};

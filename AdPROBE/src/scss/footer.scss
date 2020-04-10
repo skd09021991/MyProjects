@@ -1,0 +1,156 @@
+.footer-cover {
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    background-image: url('/media/footer-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    min-height: 462px;
+    .footer {
+        max-width: 993px;
+        height: auto;
+        width: 100%;
+        margin:0 auto;
+        padding:10px 10px 0px 10px;
+        position: relative;
+        top: 250px;
+        .footer-menu {
+            h2 {
+                color: #21366e;
+                font-size: 20px;
+                padding-left: 10px;
+                padding-bottom: 25px;
+            }
+            ul {
+                li {
+                    list-style-type: none;
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        font-size: 16px;
+                        color: #b2b5b5;
+                        padding:3px 10px;
+                        &:hover {
+                            color: #00bce3;
+                        }
+                    }
+                    ul {
+                        li {
+                            display: inline;
+                            a {
+                                display: inline-block;
+                                font-size: 20px;
+                                padding:3px 10px;
+                                margin:0 5px;
+                                border-radius: 100%;
+                                border: solid 1px #ddddf9;
+                                background-color: #f6f6fe;
+                                &:hover {
+                                    box-shadow: 0 3px 10px 0 rgba(0, 188, 227, 0.35);
+                                    background-color: #00bce3;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+        .social-media {
+            form { 
+                input {
+                max-width: 380px;
+                padding:25px;
+                border-radius: 6px;
+                box-shadow: 0 3px 15px 0 rgba(217, 217, 217, 0.16);
+                border: solid 1px #dddddd;
+                background-color: #ffffff;
+                }
+                button {
+                    background-color: #00bce3;
+                    border-radius: 6px;
+                    padding:3px 15px;
+                    font-size: 22px;
+                    color: #ffffff;
+                    max-height: 45px;
+                    margin-top: 3px;
+                    transition: 0.3s;
+                    &:hover {
+                        background-color: #fff;
+                        color: #00bce3;
+                    }
+                    i {
+                        transform: rotate(60deg);
+                    }
+                }
+                    
+            }
+
+            ul {
+                li {
+                    display: inline;
+                    a {
+                        display: inline-block;
+                        font-size: 20px;
+                        padding:3px 10px;
+                        margin:0 5px;
+                        border-radius: 100%;
+                        border: solid 1px #ddddf9;
+                        background-color: #f6f6fe;
+                        &:hover {
+                            box-shadow: 0 3px 10px 0 rgba(0, 188, 227, 0.35);
+                            background-color: #00bce3;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.copyrights {
+    padding-left: 10px;
+    a {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.22;
+        letter-spacing: normal;
+        text-align: left;
+        color: #21366e;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+            
+        }
+    }
+}
+
+
+
+.input-group-append {
+    z-index: 99;
+    margin-left: -55px !important;
+}
+
+
+@media (max-width: 768px) {
+
+    .footer-cover {
+        background-size: 0%;
+        background-color: #F6F6FE;
+        margin-top: 100px;
+        min-height: 422px;
+        padding: 50px 0;
+        .footer {
+            top: 0px;
+        }
+    }
+
+}

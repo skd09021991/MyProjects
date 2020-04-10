@@ -1,0 +1,255 @@
+.contact-us{
+    .Header{
+        position: relative;
+        top:0;
+        width: 100%;
+        height: 70px;
+        z-index: 999;
+        background-color: white;
+    }
+    .map-section{
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 300px;
+        .address-card{
+            width: 400px;
+                height: fit-content;
+                background: white;
+                z-index: 100;
+                position: absolute;
+                top:2px;
+                padding:15px;
+            .contact-card{
+                
+                
+                h2{
+                    font-size: 16px;
+                    padding: 0px 0;
+                    margin-top: 0;
+                    font-weight: 700;
+                    font-family: 'Open Sans',sans-serif;
+                    margin-left: 40px;
+                    margin-bottom: 0;
+                }
+                li{
+                    list-style-type: none;
+                    margin:0 0 ;
+                    .address{
+                        float: left;
+                        margin-left: 40px;
+                        position: relative;
+                        margin-bottom: 10px;
+                        width: 100%;
+                        p{
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #848484;
+                            line-height: 20px;
+                            font-family: 'Open Sans',sans-serif;
+                            margin: 0;
+                            // text-decoration: none;
+                            a{
+                                color: #337ab7;
+                                padding: 4px 0;
+                                display: block;
+                                text-decoration: none;
+                            }
+                        }
+                        a{
+                            
+                            color: #337ab7;
+                            padding: 4px 0;
+                            display: block;
+                            
+                            color: #848484;
+                            padding: 4px 0;
+                            display: block;
+                        }
+                        img{
+                            position: absolute;
+                            left: -35px;
+                            top: 5px;
+                            max-width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .mapouter{
+            position:relative;
+            text-align:right;
+            height:300px;
+            width:100%;
+        }
+            
+        .gmap_canvas{
+            overflow:hidden;
+            background:none!important;
+            
+        }
+    }
+
+    .contact-cover{
+        max-width: 1224px;
+        height: auto;
+        margin: 0 auto;
+        display: table;
+        margin-bottom: 30px;
+        .contact{
+            width: 100%;
+            height: auto;
+            display: flex;
+                .contact-form{
+                    width: 50%;
+                    padding:0px 15px;
+                    h2{
+                        font-size: 18px;
+                        padding: 10px 0;
+                        font-weight: 700;
+                        font-family: 'Open Sans',sans-serif;
+                        margin-left: 20px;
+                    }
+                    form{
+                        padding: 0px 15px;
+                        
+                        .row{
+                            &::before{
+                                display: table;
+                                content:"",
+                            }
+                            &::after{
+                                clear: both;
+                            }
+                            
+                            input{
+                                font-family: 'Open Sans',sans-serif;
+                                width: 100%;
+                                padding: 15px;
+                                margin: 5px 0;
+                                border: 1px solid #ccc;
+                                background-color: #fff;
+                                color: #d1d2df;
+                                font-size: 12px;
+                                //-webkit-transition: 1s;
+                                transition: 1s;
+                                border-radius: 4px;
+                                &:focus{
+                                    outline: none;
+                                    box-shadow: 0px 1px 15px 3px rgb(173, 169, 169);
+                                }
+                            }
+                            textarea{
+                                margin: 5px 0;
+                                font-size: 12px;
+                                color: #d1d2df;
+                                width: 100%;
+                                padding: 15px;
+                                border: 1px solid #ccc;
+                                //  -webkit-transition: 1s;
+                                transition: 1s;
+                                border-radius: 4px;
+                                font-family: 'Open Sans',sans-serif;
+                            }
+                            button{
+                                margin-top: 8px;
+                                color: #fff!important;
+                                padding: 10px 20px;
+                                //background-color: #f6af2e;
+                                border: none;
+                                border-radius: 3px;
+                                width: 150px;
+                            }
+                            .success{
+                                position: relative;
+                                /* bottom: 2.5%; */
+                                float: right;
+                                top: 4%;
+                                right: 50px;
+                                margin: 0 auto;
+                                color: green;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                .contact-img{
+                    //@at-rootdisplay: inline-block;
+                    width: 41.66666667%;
+                    //height: auto;
+                    padding: 30px 15px 0px;
+                    //----background: yellow;
+                    //vertical-align: middle;
+                    img{
+                        width: 100%;
+                        height: auto;
+                        //margin-top: 20px;
+                    }
+                }
+            }
+                
+    }
+    .PageFooter{
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .contact-us {
+        .map-section{
+            position: relative;
+            top:60px;
+        }
+        .contact-cover{
+            .contact{
+                .contact-form{
+
+                }
+                .contact-img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    .contact-us {
+        .contact-cover{
+            .contact{
+                display: block;
+                
+                .contact-form{
+                    width: 100%;
+                    
+
+                }
+                .contact-img{
+                    //display: inline;
+                    width: 83.333333%;
+                    padding: 0px;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .contact-us .AppHeader{ 
+        .Content{
+            .Logo{
+                width: fit-content;
+            }
+            .SearchBox{
+                width: 87%;
+                .InputContainer{
+                    width: 100%;
+                }
+            }
+        }
+        .SmallScreenHeader .content .ToggleCategoryList{
+            display: none;
+        }
+    }
+}

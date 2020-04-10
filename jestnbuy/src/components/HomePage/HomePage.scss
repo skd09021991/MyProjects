@@ -1,0 +1,83 @@
+body .Gallery__Indicators{
+    bottom: 4rem;
+}
+
+.App{
+    //background:pink;
+    .Header{
+        position: relative;
+        top:0;
+        width: 100%;
+        height: 70px;
+        z-index: 999;
+        background-color: white;
+    }
+    .Header.animated{
+        position: fixed;
+        top:0px;
+    }
+    .Slider{
+        position: relative;
+        top:0px;
+        width: 1224px;
+        height: 370px;
+        margin-right: auto;
+        margin-left: auto;
+        overflow:hidden;
+        
+    }
+    .ContentArea{
+        position: relative;
+        display: block;
+        //visibility: visible;
+        flex-flow: row;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1224px;
+        height: max-content;
+        top: 0px;
+        
+        .Category{
+            position: relative;
+            float:left;
+            width: 16.66667%;
+            height: fit-content;
+        }
+        .TopPicks{
+            
+            position: relative;
+            overflow: hidden;
+            height: 100%;
+
+        }
+    }
+
+    .PageFooter{
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 1224px){
+    .App{
+        .Slider{
+            width: 100%;
+            height: 100%;
+        }
+        .ContentArea{
+            width: 100%;
+            margin-bottom:10px;
+        }
+    }
+}
+@media only screen and (max-width: 991px){
+   .App{
+    .Slider{
+        //@extend Slider;
+        top:65px; 
+    }  
+    .ContentArea{
+        top:65px;
+        margin-bottom:50px;
+    }   
+    } 
+}

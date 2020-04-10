@@ -1,0 +1,578 @@
+.dummy-header {
+    width: 100%;
+    height: 160px;
+    max-height: 250px;
+}
+.dummyheight {
+    width: 100%;
+    height: 0px;
+}
+
+
+
+
+.career-sec-2-cover {
+    max-width: 993px;
+    width: 100%;
+    height: auto;
+    margin:170px auto;
+    position: relative;
+    padding:10px;
+    z-index: 999;
+    .career-sec-2 {
+        .career-sec-2-heading {
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            margin:0 auto;
+            padding-bottom: 60px;
+            h2 {
+                font-family: 'Gilroy', sans-serif;
+                font-size: 34px;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+        .benifits-box {
+            text-align: center;
+            .benifits-box-icon {
+                padding: 30px 10px;
+                width: auto;
+                height: auto;
+                max-width: 120px;
+                margin:30px auto;
+                box-shadow: 0 15px 30px 0 rgba(145, 145, 145, 0.16);
+                background-color: #ffffff;
+                border-radius: 100%;
+                img {}
+            }
+            h3 {
+                font-size: 20px;
+                font-family: 'Gilroy', sans-serif;
+                color: #21366e;
+                font-weight: bold;
+            }
+            p {
+                font-size: 16px;
+                color: #b2b5b5;
+                font-family: 'Lato', sans-serif;
+            }
+        }
+    }
+}
+
+
+
+
+.jobs-cover {
+    max-width: 993px;
+    height: auto;
+    width: 100%;
+    margin:0 auto;
+    .jobs-in {
+
+        .jobs-header {
+            width: 100%;
+            height: auto;
+            text-align: center;
+
+            h1 {
+                color: #21366e;
+                font-size: 44px;
+                font-family: 'Gilroy', sans-serif;
+            }
+            .jobs-filter {
+                ul {
+                    li {
+                        list-style-type: none;
+                        display: inline-block;
+                        padding:10px;
+                        cursor: pointer;
+                        font-size: 16px;
+                        font-family: 'Lato', sans-serif;
+                        &:hover {
+                            color: #00bce3;
+                        }
+                        .active {
+                            color:  #21366e;;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+        .jobs-list {
+            .job-box {
+                input {}
+                h2 {
+                    position: relative;
+                    label {
+                        padding:30px 5px;
+                        background-color: #fff;
+                        border-bottom: 1px solid #DDDDDD;
+                        position: relative;
+                        span {
+                            width: 45%;
+                            float: left;
+                            font-size: 20px;
+                            color: #21366e;
+                            font-family: 'Gilroy', sans-serif;
+                            font-weight: bold;
+                        }
+                        p {
+                            font-size: 16px;
+                            font-family: 'Lato', sans-serif;
+                            color: #b2b5b5;
+                            display: block;
+                            position: absolute;
+                            bottom: 26px;
+                            left: 5px;
+                        }
+                        i {
+                            // margin-left: 30%;
+                            position: relative;
+                            display: inline-block;
+                            border-radius: 23px;
+                            background-color: rgba(0, 188, 227, 0.23);
+                            padding:10px 15px;
+                            font-size: 12px;
+                            color: #00bce3;
+                            font-family: 'Lato', sans-serif;
+                            font-style: normal;
+                            text-transform: uppercase;
+                        }
+                    }
+                    
+                    button {
+                        position: absolute;
+                        font-family: 'Lato', sans-serif;
+                        right: 5px;
+                        top: 30px;
+                        background-color: #00bce3;
+                        border-radius: 5px;
+                        padding:10px 15px;
+                        color: #fff;
+                        font-size: 16px;
+                        text-transform: uppercase;
+
+                    }
+                }
+                .content {
+                    border: none;
+                    background-color: #f5f5ff;
+                    // height: 50vh;
+                    border-radius: 30px;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*
+ CSS for the main interaction
+*/
+.accordion > input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+  }
+  
+  .accordion .content {
+    overflow-y: hidden;
+    height: 0;
+    transition: all 0.2s ease;
+  }
+  
+  .accordion > input[type="checkbox"]:checked ~ .content {
+    height: auto;
+    overflow: visible;
+  }
+  
+  .accordion label {
+    display: block;
+  }
+  
+  /*
+   Styling
+  */
+//   body {
+//     font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+//     color: #333;
+//     font-weight: 300;
+//   }
+  
+  .accordion {
+    margin-bottom: 1em;
+  }
+  
+  .accordion > input[type="checkbox"]:checked ~ .content {
+    padding: 15px;
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+  }
+  
+  .accordion .handle {
+    margin: 0;
+    font-size: 1.125em;
+    line-height: 1.2em;
+  }
+  
+  .accordion label {
+    color: #333;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 15px;
+    background: #e8e8e8;
+  }
+  
+  .accordion label:hover,
+  .accordion label:focus {
+    background: #ffffff;
+  }
+  
+  .accordion .handle label:before {
+    // font-family: 'fontawesome';
+    // content: "\f054";
+    // display: inline-block;
+    // margin-right: 10px;
+    // font-size: .58em;
+    // line-height: 1.556em;
+    // vertical-align: middle;
+  }
+  
+  .accordion > input[type="checkbox"]:checked ~ .handle label:before {
+    // content: "\f078";
+  }
+  
+  
+ 
+  
+  .accordion {
+    max-width: 65em;
+  }
+  
+  .accordion p:last-child {
+    margin-bottom: 0;
+  }
+
+
+
+
+
+
+
+  .life-cover {
+    //   max-width: 1440px;
+      height: auto;
+      width: 96%;
+      margin:100px auto 0 auto;
+      border-radius: 50px;
+      background-color: #f5f5ff;
+    .life-in {
+        max-width: 993px;
+        width: 100%;
+        height: auto;
+        padding:100px 0;
+        margin:0 auto;
+        h2 {
+            text-align: center;
+            // padding-top: 100px;
+            font-family: 'Gilroy', sans-serif;
+            padding-bottom: 50px;
+            display: block;
+            font-weight: bold;
+        }
+        .row {
+            margin:30px 0;
+        }
+        .life-content-left {
+            h3 {
+                color: #21366e;
+                font-family: 'Gilroy', sans-serif;
+                font-size: 24px;
+                padding-top: 30px;
+                font-weight: bold;
+            }
+            p {
+                font-size: 16px;
+                font-family: 'Lato', sans-serif;
+                color: #b2b5b5;
+            }
+        }
+        .life-img-right {
+            img {
+                width: 100%;
+                border-radius: 13px;
+                box-shadow: 0 3px 20px 0 rgba(213, 213, 255, 0.38);
+            }
+        }
+    }
+  }
+
+
+  .jobs-cover .jobs-in .jobs-list .job-box h2 button img {
+      display: none;
+  }
+
+  @media (max-width: 768px) {
+    
+
+    .jobs-cover .jobs-in .jobs-list .job-box h2 label {
+        padding: 20px 15px 60px 15px;
+    }
+    .jobs-cover .jobs-in .jobs-list .job-box h2 label span {
+        width: 70%;
+        display: block;
+    }
+    .jobs-cover .jobs-in .jobs-list .job-box h2 label p {
+        left: 0px;
+        bottom: 0;
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+    .jobs-cover .jobs-in .jobs-list .job-box h2 label i {
+        display: none;
+    }
+    .jobs-cover .jobs-in .jobs-list .job-box h2 button {
+        right: 5px;
+        font-size: 12px;
+        top: 21px;
+
+
+        
+    }
+    .jobs-cover .jobs-in .jobs-list .job-box h2 button img {
+        position: absolute;
+        left: -37px;
+        top: 5px;
+        display: block;
+        max-width: 30px;
+    }
+
+    .career-sec-2-cover .career-sec-2 .benifits-box {
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+        margin:0 auto;
+    }
+
+}
+
+     .dialogBox {
+        .MuiDialog-paperWidthSm {
+            max-width: 70vw;
+            
+            height: 55vw;
+            padding: 15px;
+            border-radius: 9px;
+            
+            @media(max-width: 1366px) {
+                max-width: 75vw;
+                //height: 100vh;
+                //margin: 0;
+            }
+            @media(max-width: 1280px) {
+                max-width: 80vw;
+                //height: 100vh;
+                //margin: 0;
+            }
+            @media(max-width: 1024px) {
+                max-width: 100vw;
+                height: 100vh;
+                margin: 0;
+            }
+
+            
+            
+        }
+
+     }
+  
+      
+      
+     .about{
+        
+         .headingText{
+            font-size: 18px;
+            color: #21366e;
+            font-family: 'Gilroy', sans-serif;
+            display: inline-block;
+            padding-left: 4px;
+            margin:10px 0;
+
+         }
+         .contentText{
+            font-size: 14px;
+            color: #21366e;
+            font-family: 'Lato', sans-serif;
+            display: inline-block;
+            padding: 4px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            text-align: left;
+            margin-left: 16px;
+
+         }
+     }
+     .applyNow {
+        max-width: 385px;
+        width: 90%;
+        position: fixed;
+        
+        @media (max-width: 992px) {
+            max-width: 303px;
+            width: 90%;
+            //position: relative;
+            text-align: center;
+
+        }
+        @media (max-width: 768px) {
+            max-width: 293px;
+            width: 100%;
+            text-align: center;
+            
+            height: auto;
+            margin: 0 auto;
+           
+        }
+        @media (max-width: 480px) {
+            max-width: 293px;
+            width: 100%;
+           text-align: center;
+           position: relative;
+           
+           
+        }
+        .textField {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .recaptcha {
+            transform: scale(1.30);
+            transform-origin: 0 0;
+            @media (max-width: 768px) {
+                transform: scale(0.75);
+                transform-origin: 0 0;
+            }
+            @media (max-width: 1024px) {
+                transform: scale(1);
+                transform-origin: 0 0;  
+            }
+        }
+        .applySubmitButton {
+                   background-color: #00bce3;
+                    color: #fff;
+                    font-size: 16px;
+                    font-family: 'Lato', sans-serif;
+                     max-width: 391px;
+                    width: 102%;
+                     height: auto;
+                     
+                     margin-top: 35px;
+                     padding: 19px 20px;
+                     text-align: center;
+        }
+     }
+
+     .modal-header {
+        position: fixed;
+        width: 68%;
+        z-index: 1;
+        background: white;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: -15px;
+        @media (max-width: 1440px) {
+            position: fixed;
+            width: 68%;
+    
+    
+            margin-top: -16px;
+        }
+        @media(max-width: 1366px) {
+            width: 73%;
+            margin-top: -15px;
+        
+        }
+        @media(max-width: 1280px) {
+            width: 77vw;
+            z-index: 1;
+          
+        
+        }
+        @media (max-width: 1024px) {
+            position: fixed;
+            width: 97%;
+            margin-top: -15px;
+         
+        }
+        @media (max-width: 768px) {
+            position: fixed;
+            width: 96%;
+            margin-top: -15px;
+            
+           // position: relative;
+        }
+        @media (max-width: 480px) {
+            position: fixed;
+            width: 92%;
+            margin-top: -15px;
+            
+        }
+        .modal-title {
+            @media (max-width: 1366px) {
+                margin-top: 13px;
+                margin-left: -11px;
+               color: rgb(33, 54, 110);
+               font-size: 14px;
+            }
+        }
+        .model-info {
+            //padding-left: 452px;
+            margin-top: 13px;
+            display: inline-block;
+            font-size: 16px;
+            @media (max-width: 1024px) {
+                 //padding-left: 554px;
+                 color: #21366e;
+                 font-size: 12px;
+                 width: max-content;
+            }
+            
+            @media (max-width: 768px) {
+                //padding-left: 286px;
+                 color: #21366e;
+                 font-size: 11px;
+                 width: max-content;
+                display: grid;
+                margin-left: '-12px'
+            }
+        }
+        .close {
+            position: absolute;
+            top: -17px;
+             right: -8px;
+            padding: 0 !important;
+            margin: 10px !important;
+            outline: none;
+            font-size: 2.5rem;
+            :focus {
+                outline: none !important;
+                border: none;
+            }
+        }
+     }
+    

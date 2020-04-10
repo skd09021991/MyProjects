@@ -1,0 +1,64 @@
+{
+  "name": "e2e_form_testing",
+  "version": "1.0.0",
+  "date-created": "25-03-2020",
+  "author": "Abhishek Kr. Yadav",
+  "reviewed-by": "Siddhant Tyagi",
+  "lastmodified-by": "Abhishek Kumar Yadav",
+  "lastmodified-on": "09-04-2020",
+  "organisation": "IntelliApt Technologies Pvt. Ltd.",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.7.2",
+    "@material-ui/icons": "^4.5.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.3",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.0",
+    "env-cmd": "^10.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "google-maps-react": "^2.0.2",
+    "logger": "0.0.1",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-gesture-gallery": "^1.1.0",
+    "react-gesture-responder": "^2.1.0",
+    "react-google-recaptcha": "^2.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-slick": "^0.25.2",
+    "react-test-renderer": "^16.12.0",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "sinon": "^9.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "prod": "env-cmd -f .env.prod react-scripts start",
+    "build": "react-scripts build",
+    "build:staging": "env-cmd -f .env.staging react-scripts build",
+    "test": "react-scripts test --no-color --testResultsProcessor --json  --outputFile=test-result.json",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest-junit-reporter": "^1.1.0",
+    "wdio-selenium-standalone-service": "0.0.12"
+  }
+}

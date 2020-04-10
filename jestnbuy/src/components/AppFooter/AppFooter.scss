@@ -1,0 +1,177 @@
+.appFooter{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    // margin-top : 70px;
+    .Footer{
+        width: 100%;
+        height: auto;
+        background-color: #272727;
+        padding:20px 0px;
+        //padding-bottom:20px;
+        .Row{
+            display: flex;
+            flex-flow:row;
+            justify-content: center;
+            //flex-wrap: wrap;
+            .FooterMenu{
+                width: 50%;
+                margin:0px 0px 0px 0px;
+                border-right: 1px solid #4c3523;
+                text-align: right;
+                ul{
+                    display: block;
+                    height: auto;
+                    margin:0px 0px 10px;
+                    padding: 0px 30px 0px 0px;
+                    list-style: none;
+                    // margin-block-start: 1em;
+                    // margin-block-end: 1em;
+                    text-decoration: none;
+                    line-height: 2.42857143;
+                    color:white;
+
+                    a{
+                        display: inline;
+                        padding:15px 15px 5px;
+                        text-decoration: none;
+                        color:#e0e0e0;
+                        font-size: 12px;
+                    }
+
+                }
+                ul.Legal{
+                    margin: 0px 0px 0px;
+                    text-align: right;
+                    vertical-align: middle;
+                    line-height: 1.5;
+                    li{
+                        font-size: 11px;
+                        a{
+                            padding: 5px 10px;
+    
+                        }  
+                    } 
+                }
+            }
+        
+            .SocialMedia{
+                width: 50%;
+                background: #272727;
+                padding-left: 15px;
+                ul{
+                    //margin:24px 0px 10px;
+                    li{
+                        //color:#e0e0e0;
+                        display: inline-block;
+                        padding: 5px 15px;
+                        font-size: 12px;
+                        text-decoration: none;
+                        a{
+                           
+                            img{
+                                width: 30px;
+                                height: 30px;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .CopyRight{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        background: #000000;
+        flex-flow:row;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        .copyRightYear{
+            padding: 2px;
+        }
+        .copyRightIcon{
+            font-weight: 900;
+            line-height: 9px;
+            display: inline-block;
+            color: black;
+            background: #3faad3;
+            border-top-left-radius: 9px;
+            font-size: 11px;
+            border-bottom-left-radius: 9px;
+            border-bottom-right-radius: 9px;
+            border-top-right-radius: 9px;
+            padding: 0px 1px 1px 2px;
+            letter-spacing: 1px;
+        }
+        p{
+            margin:0px;
+            padding: 7px 0;
+            font-size: 10px;
+            color: #3faad3;
+            margin: 0;
+        }
+    }
+    
+    
+}
+
+@media only screen and (max-width: 790px){
+    .appFooter{
+        .Footer{
+            .Row{
+                .FooterMenu{
+                    // border:none;
+                    text-align: center;
+                    ul{
+                        padding: 0px 0px 0px 0px;
+                    }
+                    ul.Legal{
+                        text-align: center;
+                    }
+                }
+                .SocialMedia{
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+        .appFooter{
+            .Footer{
+                .Row{
+                    //background-color: blue;
+                    display: block;
+                    .FooterMenu{
+                        width: 100%;
+                        text-align: center;
+                        ul{
+                            padding: 10px 15px 0px;
+                        }
+                        ul.Legal{
+                            text-align:center;
+                            
+                        }
+                    }
+                    .SocialMedia{
+                        width: 100%;
+                        text-align: center;
+                        padding: 0px;
+                        ul{
+                            margin:0px 0px;
+                        }
+                    }
+                }
+            }
+        }
+       
+}
+@media only screen and (max-width: 320px){
+    .appFooter .Footer .Row .FooterMenu ul{
+        padding: 0px 10px;
+    }
+}

@@ -1,0 +1,42 @@
+.Progressive-Loading{
+    //overflow:hidden;
+    position: relative;
+    width: fit-content;
+    //visibility: hidden ;
+    img{
+        &.originalImage{
+            display: none;
+            position: absolute;
+            //height: fit-content;
+            height: auto;
+            min-height: 100px;
+            margin:0px 0px;
+            //width: 100px;
+        };
+        &.placeHolderImage{
+            //overflow: hidden;
+            position: relative;
+            transform: scale(1);
+            opacity:1;
+            transition:opacity 1s ease-in-out ;
+            //min-height: 100px;
+
+            filter:blur(20px);
+            min-height: 100px;
+            height: auto;
+            //width:200px;
+        };
+        &.show-original{
+            opacity: 0;
+            //width:100px;
+        };
+    };
+    
+};
+.image-loading{
+    .placeHolderImage{
+        position: relative;
+        min-height:100px;
+        height: auto;
+    };
+};

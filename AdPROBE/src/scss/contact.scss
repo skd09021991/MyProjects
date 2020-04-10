@@ -1,0 +1,186 @@
+.contact-sec-1 {
+    max-width: 993px;
+    height: auto;
+    width: 100%;
+    margin:0 auto;
+}
+
+.contact-box {
+    width: 100%;
+    height: auto;
+    margin:120px auto;
+    max-width: 320px;
+    padding:10px;
+    border-radius: 3px;
+    box-shadow: 0 6px 45px 0 rgba(168, 168, 168, 0.14);
+    border: solid 1px #dddddd;
+    background-color: #ffffff;
+    text-align: center;
+    .contact-box-icon {
+        width: 75px;
+        height: 75px;
+        margin:40px auto 20px auto;
+        border-radius: 100%;
+        background-color: #f5f5ff;
+        text-align: center;
+        i {
+            color: #00bce3;
+            padding: 22px 0;
+            font-size: 34px;
+        }
+    }
+    .contact-box-content {
+        h2 {
+            font-weight: bold;
+            color: #21366e;
+            font-family: 'Gilroy', sans-serif;
+            font-size: 24px;
+        }
+        ul {
+            padding:10px 0;
+            li {
+                list-style-type: none;
+                color: #b2b5b5;
+                padding:5px 0;
+            }
+        }
+    }
+
+}
+
+
+
+.contact-form {
+    max-width: 993px;
+    height: auto;
+    width: 100%;
+    margin:0 auto;
+    border-radius: 22px;
+    box-shadow: 0 3px 45px 0 rgba(136, 136, 136, 0.16);
+    border: solid 8px #ffffff;
+    background-color: #f5f5ff;
+    padding: 20px;
+    position: relative;
+    z-index: 999;
+    h2 {
+        text-align: center;
+        color: #21366e;
+        font-weight: bold;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 30px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .form {
+        padding-bottom: 10px;
+         textarea {
+            width: 100%;
+            border-radius: 6px;
+            border: solid 1px #dddddd;
+            font-size: 14px;
+            padding:15px;
+            margin:10px 0;
+            font-family: 'Lato', sans-serif;
+        }
+        textarea {
+            // width: 100%;
+            min-height: 250px;
+            margin-top: 28px;
+        }
+        .textField {
+            width: 100%;
+            max-width: 297px;
+            background-color: white;
+            border-radius: .5px solid white;
+            padding: 0;
+        }
+        .recaptcha{
+            text-align: center;
+            justify-content: center;
+            padding-left: 311px;
+        }
+        .submit-btn {
+            text-align: center;
+            width: 100%;
+            button {
+                background-color: #00bce3;
+                color: #fff;
+                font-size: 16px;
+                font-family: 'Lato', sans-serif;
+                max-width: 180px;
+                width: 100%;
+                height: auto;
+                margin: 28px auto;
+                border-radius: 5px;
+                text-align: center;
+                padding:12px 20px;
+                text-transform: uppercase;
+            }
+            button[disabled] {
+                border: 1px solid #ccd3d4;
+                background-color: #a2a9aa!important;
+                color: white;
+              }
+        }
+        
+    }
+}
+.toggleMsg{
+    .MuiDialog-paperWidthSm {
+        max-width: 33vw;
+        
+        
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+        
+        max-width: 396px;
+        text-align: center;
+        justify-content: center;
+        
+        @media (max-width: 768px) {
+            margin-top: 10vh;
+            max-width: 300px;
+             padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+        
+          }
+     }
+     .msgContent{
+        font-size: 16px;
+        color: #21366e;
+        text-align: center;
+        .icon{
+            color: #21366e;
+            text-align: center;
+             width: '100%' ; 
+             max-width: 108px;
+        }
+     }
+
+  }
+
+
+.map {
+    width: 95%;
+    height: auto;
+    margin: -280px auto 0px auto;
+    border-radius: 50px;
+  box-shadow: 0 3px 50px 0 rgba(193, 205, 255, 0.36);
+  border: solid 12px #ffffff;
+    iframe {
+        max-width: 1920px;
+        width: 100%;
+        min-height: 668px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .contact-box {
+        margin: 40px auto;
+    }
+
+
+}

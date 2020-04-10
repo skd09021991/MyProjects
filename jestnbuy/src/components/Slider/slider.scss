@@ -1,0 +1,50 @@
+.GestureGallery{
+    .Gallery__Indicators{
+        bottom: 2rem !important;
+    }
+}
+
+@media only screen and (max-width: 1224px){
+
+    .GestureGallery{
+        .Gallery__Indicators{
+            bottom: 1rem !important;
+        }
+    }
+}
+
+// @media only screen and (max-width: 1005px){
+//     .GestureGallery{
+//         .Gallery__Indicators{
+//             bottom: 1rem !important;
+//         }
+//     }
+// }
+// @media only screen and (max-width: 991px){
+//     .GestureGallery{
+//         .Gallery__Indicators{
+//             bottom: 1rem !important;
+//         }
+//     }
+// }
+
+
+@media only screen and (max-width: 786px){
+    .GestureGallery{
+        .Gallery__Indicators{
+            bottom: 0.5rem !important;
+            // color: yellow;
+            // :{
+            //     background: yellow !important;
+            // }
+        }
+    }
+}
+
+
+// @media only screen and (max-width: 1199px)
+// @media only screen and (max-width: 1224px)
+// @media only screen and (max-width: 1005px)
+// @media only screen and (max-width: 991px)
+// @media only screen and (max-width: 790px)
+

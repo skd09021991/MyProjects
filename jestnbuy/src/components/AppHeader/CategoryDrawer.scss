@@ -1,0 +1,79 @@
+
+.CategoryDrawer{
+    display: none;
+}
+
+@media only screen and (max-width: 992px){
+
+    .CategoryDrawer{
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        width:fit-content;
+        height: auto;
+        background:white;
+        // box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+        -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+        box-shadow: 0 6px 12px rgba(0,0,0,.175);
+        top:-8px;
+        //left:5%;
+        margin-left: 30px;
+        border-radius: 4px;
+        //padding: 0px 0px 0px 15px;
+        max-height: 300px;
+        z-index: 1020;
+        
+        overflow: hidden;
+        overflow-y:scroll;
+        
+        ul{
+            list-style: none;
+            display:flex;
+            flex-direction:column;
+            border-radius: 4px;
+            //margin-block-start: 1em;
+            //margin-block-end: 1em;
+            line-height: 1.42857143;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            margin-top:0px;
+
+            li{
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                display: list-item;
+                text-align: -webkit-match-parent;
+                list-style-type: none;
+    
+                a{
+                    text-decoration: none;
+                    //color: #a7a7a7;
+                    //padding: 5px 10px;
+                    //border-bottom: 1px solid #e5e5e5;
+                    display: block;
+                    cursor: pointer;
+                    font-size: 14px;
+                    font-family: 'Open Sans',sans-serif;
+
+                    width: 95%;
+                    padding: 9px 6px;
+                    border-radius: 0;
+
+                    font-weight: 400;
+                    line-height: 1.42857143;
+                    color: #333;
+                    white-space: nowrap;
+                }
+            }
+    
+        }       
+    }
+    .CategoryDrawer::-webkit-scrollbar { 
+       width: 2px;
+       background: #000; 
+   }
+    .CategoryDrawer::-webkit-scrollbar-thumb{
+       background-color: #d1d2df;
+   }
+
+}

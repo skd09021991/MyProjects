@@ -1,0 +1,77 @@
+.clearfix {
+  clear: both;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css");
+@import url("https://fonts.googleapis.com/css?family=Varela&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+$peraFont: 'Lato', sans-serif;
+$headingFont: 'Gilroy', sans-serif;
+$dark-heading: #21366e;
+$peraLight: #b2b5b5;
+$lightBlue: #00bce3;
+
+h1 {
+    font-family: $headingFont;
+  }
+  h2 {
+    $headingFont: 'Gilroy', sans-serif;
+    font-weight: bold;
+  }
+  
+  a {
+    font-family: $peraFont;
+  }
+  
+  * {
+    margin:0;
+    padding:0;
+    border:none;
+  }
+
+.small-menu {
+  display: block;
+/* width: 20px; */
+/* height: 20px; */
+color: #333;
+background-color: #333;
+position: absolute;
+z-index: 999999;
+top: 20px;
+right: 20px;
+}
+
+
+.MuiDialog-paperScrollPaper {
+  display: block !important;
+}
+.MuiFormControl-root {
+  width: 100%;
+}
+
+.dialogBox {
+  z-index: 99999 !important;
+}
+// common page heading for all pages
+.comman-page-heading {
+  max-width: 1024px;
+  height: auto;
+  margin:0 auto;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 9999;
+  margin-bottom: 130px;
+  h2 {
+      color: #21366e;
+      font-size: 44px;
+      font-family: 'Gilroy', sans-serif;
+      font-weight: bold;
+  }
+}

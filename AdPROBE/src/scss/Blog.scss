@@ -1,0 +1,70 @@
+.blog{
+    
+    input {
+        max-width: 630px;
+        margin-left:750px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        //background-image: url('searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+      button {
+        
+        width: 20%;
+        padding: 12px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        max-width:45px;
+        
+
+        
+      }
+      
+      
+    .list{
+        
+        border-radius: 6px;
+         border: solid 1px #dddddd;
+         max-width: max-content;
+         margin-left: 200px;
+         
+         li{
+            list-style-type: none;
+            padding: 3px;
+            margin-left: 4px;
+            margin-right: 4px;
+            margin-top: 4px;
+            margin-bottom: 4px;
+         }
+         
+    }
+    .card{
+            padding-left: 14px;
+            border-radius: 14px;
+            box-shadow: 0 0 50px 0 rgba(152, 152, 152, 0.16);
+            display: -webkit-inline-box;
+            border: solid 1px #dddddd;
+            
+            background-color: #ffffff;
+            
+            margin-left: 515px;
+            padding: 4.56% 4.67%;
+            text-align: center;
+             max-width: max-content;
+             margin-bottom: 44px;
+             top: -530px;
+             
+    }
+    
+}
+

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1993.051" height="474.719" viewBox="0 0 1993.051 474.719">
+    <defs>
+        <style>
+            .cls-1{fill:#f5f5ff}.cls-2{fill:#fff}.cls-3{fill:url(#linear-gradient)}
+        </style>
+        <linearGradient id="linear-gradient" x1="1.387" x2="-2.006" y1=".5" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e3e3ff"/>
+            <stop offset=".107" stop-color="#e7e7ff"/>
+            <stop offset=".621" stop-color="#f8f8ff"/>
+            <stop offset="1" stop-color="#fff"/>
+        </linearGradient>
+    </defs>
+    <g id="Group_6114" data-name="Group 6114" transform="translate(41.921)">
+        <path id="Rectangle_412" d="M0 0h1920v432H0z" class="cls-1" data-name="Rectangle 412"/>
+        <path id="Shape_2" d="M1319.13 7976s-71.231-236.95-241.089-202.788-192.756-10.422-276.7-76.949-116.678-138.785-163.283-142.133-52.058 1.812-52.058 1.812l2.192 418.249z" class="cls-2" data-name="Shape 2" transform="translate(-610 -7534.349)"/>
+        <path id="Shape_2-2" d="M586 7976s71.231-236.95 241.089-202.788 192.756-10.422 276.7-76.949 116.679-138.785 163.283-142.133 52.053 1.811 52.053 1.811l-2.192 418.249z" class="cls-2" data-name="Shape 2" transform="translate(632 -7534.349)"/>
+        <path id="Path_9706" d="M531.309 155.426l-70.565-38.381a11.608 11.608 0 0 0-11.194.061l-68.8 38.379a11.6 11.6 0 0 0 0 20.257l68.8 38.379a11.6 11.6 0 0 0 11.194.061l70.565-38.382a11.6 11.6 0 0 0 0-20.374z" class="cls-3" data-name="Path 9706" transform="translate(-416.719 259.128)"/>
+    </g>
+</svg>
